@@ -1,6 +1,6 @@
 
 
-● With built in function 
+//With built in function 
 #include <stdio.h> 
 #include <math.h> 
  
@@ -29,7 +29,7 @@ int main() {
  
  
  
-● With out built in function: 
+//With out built in function: 
 #include <stdio.h> 
  
 int total_salary_builtin(int base_salary, int experience) { 
