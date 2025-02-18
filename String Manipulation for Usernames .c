@@ -1,4 +1,4 @@
-● With built in function 
+//With built in function 
 #include <stdio.h> 
 #include <string.h> 
 #include <ctype.h> 
@@ -29,7 +29,7 @@ int main() {
     return 0; 
 } 
  
-● Without built in function 
+//Without built in function 
 #include <stdio.h> 
  
 void format_username_manual(char *username) { 
