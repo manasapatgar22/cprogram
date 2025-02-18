@@ -1,3 +1,8 @@
+/*Create  Sorting Product Prices .c
+1. Question: An e-commerce website needs to sort product prices in ascending order. 2. Write a function using built-in functions (sort()). 
+3. Write the function without built-in functions (implement your own sorting algorithm 
+like Bubble Sort).*/
+
 //With built in function: 
  
 #include <stdio.h> 
