@@ -1,3 +1,22 @@
+/*Zomato provides real-time tracking of
+food delivery orders. The order status changes dynamically as the delivery
+progresses through different stages:
+Write a C program that simulates a
+Zomato order tracking system. The user should input a number (1-4)
+corresponding to the order status, and the program should display the current
+status message.
+Enter order
+status (1-4): 2
+Your food is being prepared.
+Enter order status (1-4):
+4
+Your order has been delivered. Enjoy your meal!
+If the user enters an invalid number,
+display an error message:
+"Invalid status. Please enter a number
+between 1 and 4."
+*/
+
 #include <stdio.h>
 #include <string.h>
 
