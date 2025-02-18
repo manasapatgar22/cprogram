@@ -1,3 +1,15 @@
+/*Create Shopping Cart Management System .c
+Develop a C program to manage a shopping cart in an e-commerce application. The program should have the following features: 
+Accept product IDs and quantities to add to the shopping cart 
+- Store shopping cart details in a data structure (e.g., array, linked list, or struct) 
+- Provide functions to: 
+- Add products to the shopping cart 
+- Remove products from the shopping cart 
+- Update product quantities in the shopping cart 
+- Display shopping cart contents 
+- Calculate total cost of products in the shopping cart 
+- Apply discounts or promotions to the shopping cart*/
+
 #include <stdio.h> 
 #include <string.h> 
 #define MAX_CART_ITEMS 50 
