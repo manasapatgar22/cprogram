@@ -1,3 +1,9 @@
+/*Write a C program that takes an
+integer
+as input and prints a right-angled triangle of  ‘*’with N
+rows. 
+Example for N = 5:*/
+
 #include <stdio.h>
 
 int main() {
