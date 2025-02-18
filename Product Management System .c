@@ -1,3 +1,14 @@
+/*Create Product Management System .c
+Design and implement a C program to manage products in an e-commerce application. The program should have the following features: 
+- Accept product details (product ID, name, description, price, and quantity) 
+- Store product details in a data structure (e.g., array, linked list, or struct) 
+- Provide functions to: 
+- Add new products 
+- Delete existing products 
+- Update product details 
+- Display all products 
+- Search for products by ID or name*/
+
 #include <stdio.h> 
 #include <string.h> 
 #define MAX_PRODUCTS 100  
