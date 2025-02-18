@@ -1,3 +1,11 @@
+/*Create String Manipulation for Usernames .c
+1. Question: A website needs to generate usernames by removing spaces and 
+converting them to lowercase. 
+2. Write a function with built-in functions (std::transform, erase, etc.) to format the 
+username. 
+3. Write the function without built-in functions, using only loops and conditional 
+statements.*/
+
 //With built in function 
 #include <stdio.h> 
 #include <string.h> 
