@@ -1,4 +1,9 @@
-
+/*Create Employee Salary Calculation .c
+1. Question: A company wants to calculate the total salary to be paid to its employees. 
+The salary is calculated as base salary + (bonus based on experience years). 
+2. Write a function with built-in functions to find the total salary. 
+3. Write the same function without built-in functions (i.e., without using max(), min(), 
+etc.).*/
 
 //With built in function 
 #include <stdio.h> 
