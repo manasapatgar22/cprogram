@@ -74,3 +74,38 @@ int main() {
  
     return 0; 
 }
+
+
+//sorting based on price and rating
+#include <stdio.h>
+
+const char *statustrack(int status) {
+    if (status == 1)
+        return "Your order has been received.\n";
+    if (status == 2)
+        return "Your food is being prepared.\n";
+    if (status == 3)
+        return "Your food is out for delivery.\n";
+    if (status == 4)
+        return "Your order has been delivered. Enjoy your meal!\n";
+
+     return "Invalid status. Please enter a number between 1 and 4.\n";  
+}
+
+int main() { 
+    int status;
+    const char *track;
+    while (1) {
+        printf("Enter order status (1-4) or 0 to exit: ");
+        scanf("%d", &status);
+        
+        if (status == 0) { 
+            break; 
+        }
+        
+        track = statustrack(status);
+        printf("%s", track);
+    }
+    return 0; 
+}
+
